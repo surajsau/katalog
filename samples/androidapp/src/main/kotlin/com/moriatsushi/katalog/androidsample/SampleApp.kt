@@ -3,6 +3,7 @@ package com.moriatsushi.katalog.androidsample
 import android.app.Application
 import com.google.android.material.R as MaterialR
 import com.moriatsushi.katalog.androidsample.compose.material.composeMaterialGroup
+import com.moriatsushi.katalog.androidsample.compose.material3.composeMaterial3Group
 import com.moriatsushi.katalog.androidsample.fragment.fragmentGroup
 import com.moriatsushi.katalog.androidsample.view.material.viewMaterialGroup
 import com.moriatsushi.katalog.ext.androidtheme.AndroidThemeExt
@@ -24,6 +25,7 @@ class SampleApp : Application() {
         ) {
             group(
                 composeMaterialGroup,
+                composeMaterial3Group,
                 viewMaterialGroup,
                 fragmentGroup,
             )
